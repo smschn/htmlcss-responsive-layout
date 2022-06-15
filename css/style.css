@@ -16,11 +16,20 @@
 .m-auto {
     margin: auto;
 }
+
+.m-top {
+    margin-top: 3rem;
+}
+
+.m-bot {
+    margin-bottom: 3rem;
+}
 /* End */
 
 /* General rules */
 :root {
     --primary-color: #0084fd;
+    --primary-color-light: #b5ddff;
     --text-white: #fff;
     --text-black: #000;
 }
@@ -69,9 +78,15 @@ header .btn {
 /* End */
 
 /* Start of main */
-/* End */
 
 /* Start of section-1 */
+#section-1 .container {
+    background-color: var(--text-white);
+}
+
+#section-1 .box {
+    background-color: var(--primary-color-light);
+}
 /* End */
 
 
@@ -79,6 +94,21 @@ header .btn {
 /* Layouts: mobile up to 767px, tablet from 768px and up, desktops from 992px and up */
 /* Tablet layout from 768px and up */
 @media screen and (min-width: 768px) {
+    /* Start of main */
+    #section-1 .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    #section-1 .box:first-child {
+        width: calc(100% / 3 * 2 - 5px);
+    }
+    #section-1 .box:nth-child(2) {
+        width: calc(100% / 3);
+    }
+    .box.row-2-tablet {
+        width: calc(100% / 3 - 5px);
+    }
 }
 
 /* Desktop layout from 992px and up */
@@ -97,9 +127,17 @@ header .btn {
         padding: 0px 15px;
     }
     /* End */
-    /* Start of main */
+    
 }
 
+/* Debug rules */
+.debug {
+    border: 1px dashed red;
+}
 
+.box {
+    height: 60px;
+}
 /* To do:
++ desktop layout for first box
 + 
