@@ -133,6 +133,7 @@ header .btn {
 /* Tablet layout from 768px and up */
 @media screen and (min-width: 768px) {
     /* Start of main */
+    /* Start of section-1 */
     #section-1 .container {
         display: flex;
         flex-wrap: wrap;
@@ -147,6 +148,20 @@ header .btn {
     .box.row-2-tablet {
         width: calc(100% / 3 - 5px);
     }
+    /* End */
+    /* Start of section-3 */
+    #section-3 .box {
+        display: flex;
+        align-items: center;
+    }
+    #section-3 .box div {
+        width: calc(100% / 10 * 2 - 5px);
+    }
+    
+    #section-3 .box p {
+        width: calc(100% / 10 * 8 - 5px);
+    }
+    /* End */
 }
 
 /* Desktop layout from 992px and up */
@@ -193,10 +208,3 @@ header .btn {
 /* To do:
 + desktop layout for first box in section-1
 + 
-#section-3 .box div {
-    width: calc(100% / 10 * 2 - 5px);
-}
-
-#section-3 .box p {
-    width: calc(100% / 10 * 8 - 5px);
-}
