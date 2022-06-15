@@ -27,12 +27,16 @@
     display: flex;
 }
 
-.justify-center {
+.j-center {
     justify-content: center;
 }
 
-.justify-between {
+.j-between {
     justify-content: space-between;
+}
+
+.a-center {
+    align-items: center;
 }
 
 /* Start of header */
@@ -42,8 +46,31 @@ header {
     color: var(--text-white);
 }
 
-.menu.extended { /* show in desktop mode */
+header .container {
+    height: 100%;
+}
+
+.menu.desktop { /* show in desktop mode */
     display: none;
 }
 
 /* Start of media queries */
+/* Layouts: mobile up to 767px, tablet from 768px and up, desktops from 992px and up */
+/* Tablet layout from 768px and up */
+@media screen and (min-width: 768px) {
+}
+
+/* Desktop layout from 992px and up */
+@media screen and (min-width: 992px) {
+    .menu.mobile-tablet {
+        display: none;
+    }
+    .menu.desktop {
+        display: inline-block;
+    }
+}
+
+
+/* To do:
++ hidden menu desktop mode
++ 
