@@ -4,15 +4,46 @@
     box-sizing: border-box;
 }
 
+/* General measures */
+.w-90 {
+    width: 90%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+/* General rules */
 :root {
     --primary-color: #0084fd;
+    --text-white: #fff;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
 }
 
 /* Start of header */
 header {
-    width: 100%;
     height: 80px;
     background-color: var(--primary-color);
+    color: var(--text-white);
+}
+
+.menu.extended { /* show in desktop mode */
+    display: none;
 }
 
 /* Start of media queries */
