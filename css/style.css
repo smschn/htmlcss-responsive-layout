@@ -127,13 +127,6 @@ header .btn {
     color: var(--text-white);
 }
 
-#section-3 .box div {
-    width: calc(100% / 10 * 2 - 5px);
-}
-
-#section-3 .box p {
-    width: calc(100% / 10 * 8 - 5px);
-}
 
 /* Start of media queries */
 /* Layouts: mobile up to 767px, tablet from 768px and up, desktops from 992px and up */
@@ -200,3 +193,10 @@ header .btn {
 /* To do:
 + desktop layout for first box in section-1
 + 
+#section-3 .box div {
+    width: calc(100% / 10 * 2 - 5px);
+}
+
+#section-3 .box p {
+    width: calc(100% / 10 * 8 - 5px);
+}
