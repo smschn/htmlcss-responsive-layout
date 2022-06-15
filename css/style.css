@@ -59,6 +59,7 @@
     --secondary-color: #9792e4;
     --text-white: #fff;
     --text-black: #000;
+    --tertiary-color: #333333;
 }
 
 .flex {
@@ -170,6 +171,10 @@ header .btn {
 /* End of main */
 
 /* Start of footer */
+footer {
+    background-color: var(--tertiary-color);
+    color: var(--text-white);
+}
 /* End of footer */
 
 /* Start of media queries */
@@ -232,8 +237,21 @@ header .btn {
         width: calc(100% / 2 - 5px);
     }
     /* End */
+
+    /* Start of section-6 */
+    #section-6 .container {
+        width: 70%;
+    }
+    /* End */
+    /* End of main */
+
+    /* Start of footer */
+    footer .container {
+        width: 50%;
+    }
+    /* End */
 }
-/* End */
+/* End of tablet layout */
 
 /* Start of desktop layout from 992px and up */
 @media screen and (min-width: 992px) {
@@ -275,8 +293,21 @@ header .btn {
         width: calc(100% / 3 - 5px);
     }
     /* End */
+
+    /* Start of section-6 */
+    #section-6 .container {
+        width: 50%;
+    }
+    /* End */
+    /* End of main */
+
+    /* Start of footer */
+    footer .container {
+        width: 40%;
+    }
+    /* End */
 }
-/* End */
+/* End of desktop layout */
 
 /* Debug rules */
 .debug {
