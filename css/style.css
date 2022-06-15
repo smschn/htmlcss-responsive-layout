@@ -126,10 +126,22 @@ header .btn {
     background-color: var(--secondary-color);
     color: var(--text-white);
 }
+/* End */
 
+/* Start of section-4 */
+#section-4 {
+    background-color: var(--secondary-color);
+}
+
+#section-4 h1 {
+    color: var(--text-white);
+}
+/* End */
 
 /* Start of media queries */
+
 /* Layouts: mobile up to 767px, tablet from 768px and up, desktops from 992px and up */
+
 /* Tablet layout from 768px and up */
 @media screen and (min-width: 768px) {
     /* Start of main */
@@ -196,6 +208,7 @@ header .btn {
     }
     /* End */
 }
+/* End */
 
 /* Debug rules */
 .debug {
@@ -205,6 +218,11 @@ header .btn {
 .box {
     height: 120px;
 }
+
+.height {
+    height: 400px;
+}
+
 /* To do:
 + desktop layout for first box in section-1
 + 
