@@ -164,8 +164,13 @@ header .btn {
 /* Start of section-6 */
 #section-6 {
     background-color: var(--secondary-color);
+    color: var(--text-white);
 }
 /* End */
+/* End of main */
+
+/* Start of footer */
+/* End of footer */
 
 /* Start of media queries */
 /* Layouts: mobile up to 767px, tablet from 768px and up, desktops from 992px and up */
