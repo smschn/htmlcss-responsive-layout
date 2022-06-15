@@ -123,7 +123,16 @@ header .btn {
 
 /* Start of section-3 */
 #section-3 .box {
-    
+    background-color: var(--secondary-color);
+    color: var(--text-white);
+}
+
+#section-3 .box div {
+    width: calc(100% / 10 * 2 - 5px);
+}
+
+#section-3 .box p {
+    width: calc(100% / 10 * 8 - 5px);
 }
 
 /* Start of media queries */
