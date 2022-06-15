@@ -95,6 +95,7 @@ header .btn {
 /* End */
 
 /* Start of main */
+
 /* Start of section-1 */
 #section-1 .container {
     background-color: var(--text-white);
@@ -104,6 +105,7 @@ header .btn {
     background-color: var(--primary-color-light);
 }
 /* End */
+
 /* Start of section-2 */
 #section-2 {
     background-color: var(--secondary-color);
@@ -117,8 +119,12 @@ header .btn {
     background-color: var(--text-white);
     color: var(--text-black);
 }
-
 /* End */
+
+/* Start of section-3 */
+#section-3 .box {
+    
+}
 
 /* Start of media queries */
 /* Layouts: mobile up to 767px, tablet from 768px and up, desktops from 992px and up */
@@ -171,6 +177,7 @@ header .btn {
     #section-2 .box {
         width: calc(100% / 2 - 5px);
     }
+    /* End */
 }
 
 /* Debug rules */
@@ -182,5 +189,5 @@ header .btn {
     height: 120px;
 }
 /* To do:
-+ desktop layout for first box
++ desktop layout for first box in section-1
 + 
