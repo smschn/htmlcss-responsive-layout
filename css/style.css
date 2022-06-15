@@ -16,6 +16,7 @@
 .m-auto {
     margin: auto;
 }
+/* End */
 
 /* General rules */
 :root {
@@ -42,8 +43,9 @@
 
 .btn {
     border-radius: 20px;
-    padding: 20px;
+    padding: 20px 0px;
 }
+/* End */
 
 /* Start of header */
 header {
@@ -64,6 +66,14 @@ header .btn {
     color: var(--text-black);
     background-color: var(--text-white);
 }
+/* End */
+
+/* Start of main */
+/* End */
+
+/* Start of section-1 */
+/* End */
+
 
 /* Start of media queries */
 /* Layouts: mobile up to 767px, tablet from 768px and up, desktops from 992px and up */
@@ -73,6 +83,7 @@ header .btn {
 
 /* Desktop layout from 992px and up */
 @media screen and (min-width: 992px) {
+    /* Start of header */
     .menu.mobile-tablet {
         display: none;
     }
@@ -85,6 +96,8 @@ header .btn {
     .menu.desktop div {
         padding: 0px 15px;
     }
+    /* End */
+    /* Start of main */
 }
 
 
