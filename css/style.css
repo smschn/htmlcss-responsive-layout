@@ -55,6 +55,10 @@
 .b-radius {
     border-radius: 20px;
 }
+
+.img-radius {
+    border-radius: 50%;
+}
 /* End */
 
 /* General structure rules */
@@ -165,6 +169,10 @@ header .btn {
     background-color: var(--secondary-color);
     color: var(--text-white);
 }
+
+#section-3 .uppercase {
+    text-transform: uppercase;
+}
 /* End */
 
 /* Start of section-4 */
@@ -198,10 +206,6 @@ header .btn {
 /* Start of section-5 */
 #section-5 {
     background-color: var(--text-white);
-}
-
-#section-5 img {
-    border-radius: 50%;
 }
 
 #section-5 .btn {
@@ -298,14 +302,18 @@ footer a {
     /* Start of section-3 */
     #section-3 .box {
         display: flex;
+        justify-content: space-between;
         align-items: center;
     }
-    #section-3 .box div {
-        width: calc(100% / 10 * 2 - 5px);
+    #section-3 .box div:first-child {
+        width: calc(100% / 3 - 5px);
     }
-    
-    #section-3 .box p {
-        width: calc(100% / 10 * 8 - 5px);
+    #section-3 .box div:last-child {
+        width: calc(100% / 3 * 2 - 5px);
+        padding-right: 10px;
+    }
+    #section-3 .box div:last-child p {
+        text-align: left;
     }
     /* End */
 
