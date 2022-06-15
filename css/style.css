@@ -36,6 +36,16 @@
 .padding-top-bott {
     padding: 1rem 0rem;
 }
+
+.btn {
+    border-radius: 20px;
+    padding: 20px 20px;
+}
+
+
+.b-radius {
+    border-radius: 20px;
+}
 /* End */
 
 /* General rules */
@@ -61,15 +71,6 @@
 
 .a-center {
     align-items: center;
-}
-
-.btn {
-    border-radius: 20px;
-    padding: 20px 0px;
-}
-
-.b-radius {
-    border-radius: 20px;
 }
 /* End */
 
@@ -133,8 +134,20 @@ header .btn {
     background-color: var(--secondary-color);
 }
 
-#section-4 h1 {
+#section-4 .main-title {
     color: var(--text-white);
+}
+
+#section-4 .box {
+    background-color: var(--text-white);
+}
+
+#section-4 .box h1, #section-4 .box h2 {
+    color: var(--secondary-color);
+}
+
+#section-4 .btn {
+    background-color: var(--secondary-color);
 }
 /* End */
 
