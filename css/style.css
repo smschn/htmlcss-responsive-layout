@@ -33,6 +33,10 @@
     margin-bottom: 1.5rem;
 }
 
+.padding {
+    padding: 0.3rem; /* modificare quando i box saranno riempiti */
+}
+
 .padding-top-bott {
     padding: 1rem 0rem;
 }
@@ -152,11 +156,10 @@ header .btn {
 /* End */
 
 /* Start of media queries */
-
 /* Layouts: mobile up to 767px, tablet from 768px and up, desktops from 992px and up */
-
-/* Tablet layout from 768px and up */
+/* Start of tablet layout from 768px and up */
 @media screen and (min-width: 768px) {
+
     /* Start of main */
     /* Start of section-1 */
     #section-1 .container {
@@ -174,6 +177,7 @@ header .btn {
         width: calc(100% / 3 - 5px);
     }
     /* End */
+
     /* Start of section-3 */
     #section-3 .box {
         display: flex;
@@ -187,15 +191,30 @@ header .btn {
         width: calc(100% / 10 * 8 - 5px);
     }
     /* End */
-}
 
-/* Desktop layout from 992px and up */
+    /* Start of section-4 */
+    #section-4 .sub-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    #section-4 .box {
+        width: calc(100% / 2 - 5px);
+    }
+    /* End */
+}
+/* End */
+
+/* Start of desktop layout from 992px and up */
 @media screen and (min-width: 992px) {
+
     /* Start of general measures */
     .w-90 {
         width: 70%;
     }
     /* End */
+
     /* Start of header */
     .menu.mobile-tablet {
         display: none;
@@ -210,6 +229,7 @@ header .btn {
         padding: 0px 15px;
     }
     /* End */
+
     /* Start of main */
     /* Start of section-2 */
     #section-2 .container {
@@ -218,6 +238,12 @@ header .btn {
     }
     #section-2 .box {
         width: calc(100% / 2 - 5px);
+    }
+    /* End */
+
+    /* Start of section-4 */
+    #section-4 .box {
+        width: calc(100% / 3 - 5px);
     }
     /* End */
 }
