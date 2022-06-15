@@ -155,6 +155,12 @@ header .btn {
 }
 /* End */
 
+/* Start of section-5 */
+#section-5 {
+    background-color: var(--text-white);
+}
+/* End */
+
 /* Start of media queries */
 /* Layouts: mobile up to 767px, tablet from 768px and up, desktops from 992px and up */
 /* Start of tablet layout from 768px and up */
@@ -260,6 +266,9 @@ header .btn {
 
 .height {
     height: 400px;
+}
+
+.width {
 }
 
 /* To do:
