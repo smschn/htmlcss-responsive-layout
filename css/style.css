@@ -328,8 +328,11 @@ footer a {
         justify-content: space-between;
         flex-wrap: wrap;
     }
-    #section-5 .box {
-        width: calc(100% / 2 - 5px);
+    #section-5 .box:first-child {
+        width: calc(100% / 3 * 2 - 5px);
+    }
+    #section-5 .box:last-child {
+        width: calc(100% / 3 - 5px);
     }
     /* End */
 
