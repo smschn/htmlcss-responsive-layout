@@ -24,12 +24,21 @@
 .m-bot {
     margin-bottom: 3rem;
 }
+
+.m-top-small {
+    margin-top: 1.5rem;
+}
+
+.m-bot-small {
+    margin-bottom: 1.5rem;
+}
 /* End */
 
 /* General rules */
 :root {
     --primary-color: #0084fd;
     --primary-color-light: #b5ddff;
+    --secondary-color: #9792e4;
     --text-white: #fff;
     --text-black: #000;
 }
@@ -53,6 +62,10 @@
 .btn {
     border-radius: 20px;
     padding: 20px 0px;
+}
+
+.b-radius {
+    border-radius: 20px;
 }
 /* End */
 
@@ -78,7 +91,6 @@ header .btn {
 /* End */
 
 /* Start of main */
-
 /* Start of section-1 */
 #section-1 .container {
     background-color: var(--text-white);
@@ -88,7 +100,21 @@ header .btn {
     background-color: var(--primary-color-light);
 }
 /* End */
+/* Start of section-2 */
+#section-2 {
+    background-color: var(--secondary-color);
+}
 
+#section-2 .left {
+    color: var(--text-white);
+}
+
+#section-2 .right {
+    background-color: var(--text-white);
+    color: var(--text-black);
+}
+
+/* End */
 
 /* Start of media queries */
 /* Layouts: mobile up to 767px, tablet from 768px and up, desktops from 992px and up */
