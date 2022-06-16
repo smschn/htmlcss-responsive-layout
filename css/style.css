@@ -147,6 +147,20 @@ header .btn {
 #section-1 .box {
     background-color: var(--primary-color-light);
 }
+
+#section-1 i {
+    color: var(--primary-color);
+}
+
+#section-1 h1 {
+    color: var(--primary-color);
+}
+
+#section-1 .btn {
+    background-color: var(--primary-color);
+    color: var(--text-white);
+    width: 60%;
+}
 /* End */
 
 /* Start of section-2 */
@@ -424,6 +438,7 @@ footer a {
 }
 
 .box {
+
 }
 
 .height {
