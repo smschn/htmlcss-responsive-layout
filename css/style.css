@@ -218,6 +218,10 @@ header .btn {
 #section-2 .planning {
     width: 100%;
 }
+
+#section-2 .box:first-child {
+    text-align: left;
+}
 /* End */
 
 /* Start of section-3 */
@@ -457,9 +461,7 @@ footer a {
     #section-2 .box {
         width: calc(100% / 2 - 5px);
     }
-    #section-2 .box:first-child {
-        text-align: left;
-    }
+
     #section-2 .box:last-child {
         align-self: flex-end;
     }
