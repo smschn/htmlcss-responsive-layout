@@ -125,6 +125,7 @@ header {
     position: sticky;
     top: 0px;
     z-index: 999;
+    line-height: 100%;
 }
 
 header .container {
