@@ -214,6 +214,10 @@ header .btn {
     border-radius: 50%;
     padding: 10px;
 }
+
+#section-2 .planning {
+    width: 100%;
+}
 /* End */
 
 /* Start of section-3 */
@@ -455,6 +459,10 @@ footer a {
     }
     #section-2 .box:last-child {
         align-self: flex-end;
+    }
+    #section-2 .box:last-child .planning {
+        height: 250px;
+        width: auto;
     }
     /* End */
 
