@@ -398,6 +398,12 @@ footer a {
     /* End */
 
     /* Start of main */
+    /* Start of section-1 */
+    #section-1 .box:first-child {
+        display: flex;
+    }
+    /* End */
+
     /* Start of section-2 */
     #section-2 .container {
         display: flex;
