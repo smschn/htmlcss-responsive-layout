@@ -178,6 +178,17 @@ header .btn {
     color: var(--text-white);
 }
 
+#section-1 .box:first-child {
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+#section-1 .phone {
+    width: 300px;
+    margin: auto;
+    display: block; /* Add this otherwise the image will have a little margin down below */
+}
 /* End */
 
 /* Start of section-2 */
@@ -338,6 +349,9 @@ footer a {
     .box.row-2-tablet {
         width: calc(100% / 3 - 5px);
     }
+    #section-1 .box:first-child div:last-child {
+        width: calc(100% / 2);
+    }
     /* End */
 
     /* Start of section-3 */
@@ -468,7 +482,7 @@ footer a {
 }
 /* End of desktop layout */
 
-/* Debug rules */
+/* Debug rules 
 .debug {
     border: 1px dashed red;
 }
@@ -480,7 +494,3 @@ footer a {
 .height {
     height: 400px;
 }
-
-/* To do:
-+ desktop layout for first box in section-1
-+ 
