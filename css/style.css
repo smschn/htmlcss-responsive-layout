@@ -3,6 +3,8 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    scroll-margin-top: 5rem;
+    scroll-behavior: smooth;
 }
 
 /* General measures */
@@ -115,6 +117,10 @@
     line-height: 1.8rem;
 }
 
+.clickable {
+    color: var(--text-white);
+    text-decoration: none;
+}
 /* End */
 
 /* Start of header */
@@ -131,13 +137,15 @@ header .container {
     height: 100%;
 }
 
-.menu.desktop { /* show in desktop mode */
+.menu.desktop { /* To be shown in desktop mode */
     display: none;
 }
 
-header .btn {
+header .btn .clickable {
     color: var(--text-black);
     background-color: var(--text-white);
+    padding: 7px;
+    border-radius: 40px;
 }
 /* End */
 
