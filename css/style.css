@@ -266,7 +266,7 @@ header .btn {
 #section-4 .btn {
     background-color: var(--secondary-color);
     color: var(--text-white);
-    width: 40%;
+    width: 8rem;
 }
 /* End */
 
