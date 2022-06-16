@@ -176,6 +176,12 @@ header .btn {
     background-color: var(--text-white);
     color: var(--text-black);
 }
+
+#section-2 .right i {
+    background-color: var(--secondary-color);
+    border-radius: 50%;
+    padding: 10px;
+}
 /* End */
 
 /* Start of section-3 */
@@ -411,6 +417,9 @@ footer a {
     }
     #section-2 .box {
         width: calc(100% / 2 - 5px);
+    }
+    #section-2 .box:last-child {
+        align-self: flex-end;
     }
     /* End */
 
