@@ -234,7 +234,7 @@ header .btn {
     text-transform: uppercase;
 }
 
-#section-3 .img-radius {
+#section-3 .img-radius { /* Used to modify img from a rectangle to a square */
     object-fit: cover;
     width:230px;
     height:230px;
@@ -278,7 +278,7 @@ header .btn {
 #section-5 .btn {
     background-color: var(--secondary-color);
     color: var(--text-white);
-    width: 50%;
+    width: 16rem;
     padding: 15px;
 }
 
@@ -293,9 +293,14 @@ header .btn {
 #section-5 .fa-quote-left {
     position: absolute;
     top: 0px;
-    left: 150px;
+    left: 130px;
     font-size: 5rem;
     color: var(--secondary-color);
+}
+
+#section-5 .img-radius {
+    width: 10rem;
+    margin: auto;
 }
 /* End */
 
