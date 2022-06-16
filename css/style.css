@@ -233,6 +233,13 @@ header .btn {
 #section-3 .uppercase {
     text-transform: uppercase;
 }
+
+#section-3 .img-radius {
+    object-fit: cover;
+    width:230px;
+    height:230px;
+}
+
 /* End */
 
 /* Start of section-4 */
