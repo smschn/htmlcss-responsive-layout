@@ -147,6 +147,10 @@ header .btn .clickable {
     padding: 7px;
     border-radius: 40px;
 }
+
+.logo img {
+    display: block;
+}
 /* End */
 
 /* Start of main */
@@ -217,9 +221,12 @@ header .btn .clickable {
 }
 
 #section-2 .right i {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
     background-color: var(--secondary-color);
     border-radius: 50%;
-    padding: 10px;
+    line-height: 50px; 
 }
 
 #section-2 .planning {
@@ -520,7 +527,8 @@ footer a {
 }
 
 .box {
-
+    width: 120px;
+    height: 80px;
 }
 
 .height {
